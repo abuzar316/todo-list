@@ -1,0 +1,9 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.root{height: 100vh;width: 100%; display: flex; align-items: center; justify-content: center; background: #CFFFDC;}
+.flex{display: flex;flex-wrap: wrap;justify-content: space-between;}
+.todo-app{width: 500px; background: #7900FF; padding: 20px;height: 400px; overflow: auto;}
+.header input{width: 70%; padding: 10px 15px; border: none; outline: none;}
+.header button{width: 30%; padding: 10px 15px; border: none;outline: none; cursor: pointer; background: #548CFF;}
+.todo-item{height: 35px; background: #CFFFDC; line-height: 35px;margin-top: 15px; padding-left: 15px; font-weight: 600; color: #000;}
+.todo-item span{ background: #93FFD8; width: 50px;text-align: center;cursor: pointer; color: red;}
+small{color: red;}
